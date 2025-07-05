@@ -3,7 +3,7 @@
 🎓 Junior Undergraduate at [IIT Gandhinagar](https://iitgn.ac.in)  
 📍 Major: Computer Science and Engineering  
 📬 Email: [umang.shikarvar@iitgn.ac.in](mailto:umang.shikarvar@iitgn.ac.in)  
-🔗 [LinkedIn](https://www.linkedin.com/in/umang-shikarvar) | [GitHub](https://github.com/Umang-Shikarvar)
+🔗 [LinkedIn](https://www.linkedin.com/in/umang-shikarvar)
 
 ---
 
