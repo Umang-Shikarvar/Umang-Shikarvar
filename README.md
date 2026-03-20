@@ -1,39 +1,34 @@
 # 👋 Hi, I'm Umang Shikarvar
 🎓 Junior Undergraduate at [IIT Gandhinagar](https://iitgn.ac.in)  
 📍 Major: Computer Science and Engineering  
-💡 Interested in AI/ML & Systems  
-📬 [Email](mailto:umang.shikarvar@iitgn.ac.in)  | 🔗 [LinkedIn](https://www.linkedin.com/in/umang-shikarvar)
+💡 Interested in AI/ML & Systems
 
 ---
 
 ## 🚀 Some of my works
 ### 💾 [Distributed Virtual File System](https://github.com/Umang-Shikarvar/Distributed-Virtual-File-System.git)
-- Built a **secure distributed file system** using **gRPC + Protocol Buffers** with separate **Meta Server and File Servers**  
-- Implemented full file operations: `create`, `read`, `write`, `delete`, `upload`, `download`, `ls`, `cd`, `mkdir`  
-- Designed a **FID-based architecture** (server_id, inode_id, generation_number) for file tracking  
-- Enabled **streaming file transfer** and **TLS-based secure communication**  
-- Developed an interactive **CLI client (Cobra)** with multi-user support  
-- Containerized the system using **Docker + docker-compose** for distributed deployment
+* **Architecture:** Built a secure, containerized distributed file system using **gRPC & Protocol Buffers** with distinct Meta and File Servers.
+* **Core Mechanics:** Designed a **FID-based tracker** (server_id, inode_id, generation_number) and implemented file operations like: `create`,  `delete`, `upload`, `download`, `ls`, `cd`, `mkdir`   etc.
+* **Performance & Security:** Enabled streaming file transfers and secured communication via **TLS**. 
+* **Interface:** Developed a multi-user interactive CLI client using **Cobra**.
 
 ### 🌍 [GeoNLI — Geospatial Natural Language Interface](https://github.com/Umang-Shikarvar/GeoNLI.git)
-- Built an **end-to-end neuro-symbolic system** for satellite image understanding (captioning, grounding, VQA)  
-- Developed a **full-stack application** (Flask + React + Vercel) with **10+ concurrency-safe API endpoints**  
-- Designed a **hybrid VQA router** to handle numeric & binary queries using deterministic solvers, reducing hallucinations  
-- Achieved **42.4% grounding mIoU**, **90.8% binary VQA accuracy**, and **52.9 BLEU-1** on VRSBench  
-- 🥈 Awarded **Silver Medal at Inter IIT Tech Meet 14.0** among 23 IITs  
+* **System Design:** Built an end-to-end neuro-symbolic full-stack application (Flask, React, Vercel) for satellite image understanding (captioning, grounding, VQA).
+* **Innovation:** Designed a **hybrid VQA router** utilizing deterministic solvers for numeric/binary queries to drastically reduce hallucinations.
+* **Impact:** Achieved **42.4% grounding mIoU**, **90.8% binary VQA accuracy**, and **52.9 BLEU-1** on VRSBench. 
+* *🥈 Awarded Silver Medal at Inter IIT Tech Meet 14.0.*
 
 ### 🛰️ [Domain Adaptation for Brick Kiln Detection](https://github.com/Umang-Shikarvar/Domain-Adaptation.git)
-- Developed end-to-end unsupervised and minimally supervised domain adaptation pipelines using 10% target-
-domain labels to enhance cross-region brick kiln detection, reducing manual labeling requirements in satellite imagery.
-- Pipeline 1: Used unpaired image translation followed by pseudo-labeling for target-domain training.
-- Pipeline 2: Used uncertainty-based active learning to iteratively label and train on informative target samples.
-- Delivered a 9.87% gain in class-agnostic mAP@50 using the active learning pipeline over the baseline.
+* **Objective:** Enhanced cross-region brick kiln detection in satellite imagery to drastically reduce manual labeling requirements.
+* **Methodology:** Built end-to-end domain adaptation pipelines utilizing only **10% target-domain labels** via two approaches:
+  * *Unsupervised:* Unpaired image translation followed by pseudo-labeling for target-domain training.
+  * *Minimally Supervised:* Uncertainty-based active learning to iteratively identify and train on the most informative target samples.
+* **Impact:** Delivered a **9.87% gain in class-agnostic mAP@50** over the baseline model using the active learning pipeline.
 
 ### 🔧 [miniTorch](https://github.com/Umang-Shikarvar/miniTorch)
-- A PyTorch-inspired deep learning framework built from scratch using NumPy.  
-- Designed a Tensor class with broadcasting, dtype handling, and gradient tracking via computation graphs.
-- Implemented a custom autograd engine supporting automatic differentiation and direct tensor backpropagation.
-- Integrated modular layers, custom loss functions, optimizers, and Graphviz-based computation-graph visualization.
+* **Engine:** Built a PyTorch-inspired framework from scratch using **NumPy**, featuring a custom autograd engine for automatic differentiation and tensor backpropagation.
+* **Features:** Engineered a Tensor class supporting broadcasting, dtype handling, and gradient tracking via computation graphs.
+* **Ecosystem:** Integrated modular layers, custom loss functions, optimizers, and Graphviz-based visualization.
 
 ---
 
@@ -56,4 +51,4 @@ domain labels to enhance cross-region brick kiln detection, reducing manual labe
 
 ---
 
-Thanks for visiting! Feel free to explore my [projects](https://github.com/Umang-Shikarvar?tab=repositories) or connect on [LinkedIn](https://www.linkedin.com/in/umang-shikarvar).
+Thanks for visiting! Feel free to explore my [projects](https://github.com/Umang-Shikarvar?tab=repositories) or connect on [LinkedIn](https://www.linkedin.com/in/umang-shikarvar) or [Email](mailto:umang.shikarvar@iitgn.ac.in).
