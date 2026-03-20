@@ -2,8 +2,7 @@
 🎓 Junior Undergraduate at [IIT Gandhinagar](https://iitgn.ac.in)  
 📍 Major: Computer Science and Engineering  
 💡 Interested in AI/ML & Systems  
-📬 Email: [umang.shikarvar@iitgn.ac.in](mailto:umang.shikarvar@iitgn.ac.in)  
-🔗 [LinkedIn](https://www.linkedin.com/in/umang-shikarvar)
+📬 [Email](mailto:umang.shikarvar@iitgn.ac.in)  | 🔗 [LinkedIn](https://www.linkedin.com/in/umang-shikarvar)
 
 ---
 
@@ -52,7 +51,7 @@ domain labels to enhance cross-region brick kiln detection, reducing manual labe
 
 - **Programming Languages:** C/C++ • Python • Go • Java  
 - **Web Stack:** HTML • CSS • JavaScript • React • Flask • MySQL  
-- **Libraries & ML:** PyTorch • TensorFlow • Scikit-learn • Transformers • Pillow • OpenCV • NumPy • Pandas • Matplotlib • Ultralytics  
+- **Libraries & ML:** PyTorch • TensorFlow • Scikit-learn • Transformers • Pillow • OpenCV • NumPy • Pandas • Matplotlib
 - **Tools & Platforms:** gRPC • Git/GitHub • VS Code • Remote SSH • Hugging Face • Postman • MySQL Workbench  
 
 ---
