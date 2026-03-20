@@ -1,60 +1,59 @@
 # 👋 Hi, I'm Umang Shikarvar
-
 🎓 Junior Undergraduate at [IIT Gandhinagar](https://iitgn.ac.in)  
 📍 Major: Computer Science and Engineering  
+💡 Interested in AI/ML & Systems  
 📬 Email: [umang.shikarvar@iitgn.ac.in](mailto:umang.shikarvar@iitgn.ac.in)  
 🔗 [LinkedIn](https://www.linkedin.com/in/umang-shikarvar)
 
 ---
 
 ## 🚀 Some of my works
+### 💾 [Distributed Virtual File System](https://github.com/Umang-Shikarvar/Distributed-Virtual-File-System.git)
+- Built a **secure distributed file system** using **gRPC + Protocol Buffers** with separate **Meta Server and File Servers**  
+- Implemented full file operations: `create`, `read`, `write`, `delete`, `upload`, `download`, `ls`, `cd`, `mkdir`  
+- Designed a **FID-based architecture** (server_id, inode_id, generation_number) for file tracking  
+- Enabled **streaming file transfer** and **TLS-based secure communication**  
+- Developed an interactive **CLI client (Cobra)** with multi-user support  
+- Containerized the system using **Docker + docker-compose** for distributed deployment
+
+### 🌍 [GeoNLI — Geospatial Natural Language Interface](https://github.com/Umang-Shikarvar/GeoNLI.git)
+- Built an **end-to-end neuro-symbolic system** for satellite image understanding (captioning, grounding, VQA)  
+- Developed a **full-stack application** (Flask + React + Vercel) with **10+ concurrency-safe API endpoints**  
+- Designed a **hybrid VQA router** to handle numeric & binary queries using deterministic solvers, reducing hallucinations  
+- Achieved **42.4% grounding mIoU**, **90.8% binary VQA accuracy**, and **52.9 BLEU-1** on VRSBench  
+- 🥈 Awarded **Silver Medal at Inter IIT Tech Meet 14.0** among 23 IITs  
 
 ### 🛰️ [Domain Adaptation for Brick Kiln Detection](https://github.com/Umang-Shikarvar/Domain-Adaptation.git)
-- Designed two approaches to improve generalization across regions in satellite imagery:
-  - **Unsupervised**: CycleGAN/CUT-based unpaired image-to-image translation + pseudo-labeling  
-  - **Minimally Supervised**: Active learning (entropy & margin sampling) for efficient sample selection  
-- Used with Faster R-CNN to enhance cross-domain detection performance
+- Developed end-to-end unsupervised and minimally supervised domain adaptation pipelines using 10% target-
+domain labels to enhance cross-region brick kiln detection, reducing manual labeling requirements in satellite imagery.
+- Pipeline 1: Used unpaired image translation followed by pseudo-labeling for target-domain training.
+- Pipeline 2: Used uncertainty-based active learning to iteratively label and train on informative target samples.
+- Delivered a 9.87% gain in class-agnostic mAP@50 using the active learning pipeline over the baseline.
 
 ### 🔧 [miniTorch](https://github.com/Umang-Shikarvar/miniTorch)
-A PyTorch-inspired deep learning framework built from scratch using NumPy.  
-- Custom autograd engine, tensor class, loss functions, optimizers  
-- Graphviz-based computation graph visualization
-
-### 🧠 [LLM-Based Sentiment Classifier](https://github.com/Umang-Shikarvar/Sentiment-classifier) | [Live Demo](https://huggingface.co/spaces/umangshikarvar/Sentiment_classifier)
-- Fine-tuned GPT-Neo with LoRA on 4-bit quantization  
-- Efficient 3-class sentiment classification with a Gradio interface  
-
-### 🖼️ [Image Captioning Model](https://github.com/Umang-Shikarvar/Image-Caption.git) | [Live Demo](https://huggingface.co/spaces/umangshikarvar/Image-Captioning)
-- ResNet-50 + LSTM based image captioning on MS COCO  
-- BLEU-1: 0.6761, BLEU-4: 0.2279  
-
-### 📉 [Image Compression via Matrix Factorization](https://github.com/Umang-Shikarvar/Domain-Adaptation.git)
-Compressed images using low-rank matrix approximations and evaluated with PSNR and RMSE.
+- A PyTorch-inspired deep learning framework built from scratch using NumPy.  
+- Designed a Tensor class with broadcasting, dtype handling, and gradient tracking via computation graphs.
+- Implemented a custom autograd engine supporting automatic differentiation and direct tensor backpropagation.
+- Integrated modular layers, custom loss functions, optimizers, and Graphviz-based computation-graph visualization.
 
 ---
 
 ## 🏆 Achievements
 
-- 🥈 2nd Place – Hackrush 2025 (Swin Transformer + TTA for galaxy classification)  
-- 🎖 Dean’s List, IITGN – SPI 9.57 (Sem 1)  
-- 🧠 JEE Advanced AIR 1123 · JEE Mains AIR 1282  
-- 💡 Solved 500+ DSA problems on LeetCode and GfG  
+- 🥇 Ranked **44/8000+ teams (Top 50)** in Amazon ML Challenge 2025  
+- 🥈🥉 Represented IIT Gandhinagar at Inter IIT Tech Meet 14.0, winning **Silver & Bronze** among 23 IITs  
+- 🎓 Awarded **Dean’s List (2024)** and **Academic Citation (2025)** at IIT Gandhinagar  
+- 🏆 Secured **AIR 1123 (JEE Advanced 2023)** and **AIR 1282 (JEE Mains 2023)** among 1.3M+ candidates  
+- 🥈 **2nd Place** at HackRush 2025, IIT Gandhinagar  
 
 ---
 
 ## 🧰 Tech Stack
 
-**Languages**: Python, C/C++  
-**Frameworks**: PyTorch, Hugging Face, Keras  
-**Tools**: Git, VS Code, Remote-SSH  
-**Libraries**: NumPy, OpenCV, Sklearn, Transformers, Matplotlib  
-
----
-
-## 📚 Relevant Courses
-
-- **CS**: DSA, ML, DL, Theory of Computing, Data-Centric Computing  
-- **Math**: Linear Algebra, Probability & Stats, ODEs, Numerical Methods  
+- **Programming Languages:** C/C++ • Python • Go • Java  
+- **Web Stack:** HTML • CSS • JavaScript • React • Flask • MySQL  
+- **Libraries & ML:** PyTorch • TensorFlow • Scikit-learn • Transformers • Pillow • OpenCV • NumPy • Pandas • Matplotlib • Ultralytics  
+- **Tools & Platforms:** gRPC • Git/GitHub • VS Code • Remote SSH • Hugging Face • Postman • MySQL Workbench  
 
 ---
 
